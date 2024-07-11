@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{A714F2C5-74D8-4316-BFA6-F5A6987E5967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A8D32E1F-2631-4DB6-A048-38B4C42A25D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery.fileDownload-master", "jquery.fileDownload-master", "{5ED07722-CF6F-4E49-8751-58D85E426A1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jquery.fileDownload", "public\scripts\jquery.fileDownload-master\src\jquery.fileDownload.csproj", "{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8D32E1F-2631-4DB6-A048-38B4C42A25D6} = {A714F2C5-74D8-4316-BFA6-F5A6987E5967}
+		{5ED07722-CF6F-4E49-8751-58D85E426A1F} = {A8D32E1F-2631-4DB6-A048-38B4C42A25D6}
+		{247DD2E0-A122-4D3F-975A-E4D37B7D0FB9} = {5ED07722-CF6F-4E49-8751-58D85E426A1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E4069E5-7283-4EA7-8822-3363FF42FFDD}
+	EndGlobalSection
+EndGlobal
